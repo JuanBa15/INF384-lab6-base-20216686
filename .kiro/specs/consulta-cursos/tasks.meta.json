@@ -1,0 +1,51 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Implementar `GET /cursos` con filtro por ciclo": [
+      {
+        "executionId": "480f5dc6-f915-4121-9acc-c68c689329c8",
+        "chatSessionId": "sess_d2b26198-454d-487f-ba6a-33637a490d7d",
+        "timestamp": 1795728454681
+      },
+      {
+        "executionId": "480f5dc6-f915-4121-9acc-c68c689329c8",
+        "chatSessionId": "sess_d2b26198-454d-487f-ba6a-33637a490d7d",
+        "timestamp": 1795728459165
+      },
+      {
+        "executionId": "480f5dc6-f915-4121-9acc-c68c689329c8",
+        "chatSessionId": "sess_d2b26198-454d-487f-ba6a-33637a490d7d",
+        "timestamp": 1795728512225
+      }
+    ],
+    "2. Implementar `GET /cursos/:codigo`": [
+      {
+        "executionId": "480f5dc6-f915-4121-9acc-c68c689329c8",
+        "chatSessionId": "sess_d2b26198-454d-487f-ba6a-33637a490d7d",
+        "timestamp": 1795728454763
+      },
+      {
+        "executionId": "480f5dc6-f915-4121-9acc-c68c689329c8",
+        "chatSessionId": "sess_d2b26198-454d-487f-ba6a-33637a490d7d",
+        "timestamp": 1795728514263
+      },
+      {
+        "executionId": "480f5dc6-f915-4121-9acc-c68c689329c8",
+        "chatSessionId": "sess_d2b26198-454d-487f-ba6a-33637a490d7d",
+        "timestamp": 1795728559332
+      }
+    ],
+    "3. Middleware de manejo de errores": [
+      {
+        "executionId": "480f5dc6-f915-4121-9acc-c68c689329c8",
+        "chatSessionId": "sess_d2b26198-454d-487f-ba6a-33637a490d7d",
+        "timestamp": 1795728454810
+      },
+      {
+        "executionId": "480f5dc6-f915-4121-9acc-c68c689329c8",
+        "chatSessionId": "sess_d2b26198-454d-487f-ba6a-33637a490d7d",
+        "timestamp": 1795728562234
+      }
+    ]
+  }
+}
