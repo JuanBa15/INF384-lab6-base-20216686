@@ -76,7 +76,7 @@ Se añade `POST /habilitados` a la API Express existente, con una función pura 
     - Comprobar que `npm audit --audit-level=high` sale 0 y que `npm test -- --coverage` pasa el umbral de 80 % en local antes de confiar en CI
     - _Requirements: 4.1, 4.3_
 
-- [ ] 8. Checkpoint final - Verificación completa
+- [x] 8. Checkpoint final - Verificación completa
   - Ejecutar `npm test -- --coverage`, `npm audit --audit-level=high` y confirmar que `ci.yml` es YAML válido
   - Ensure all tests pass, ask the user if questions arise.
 
