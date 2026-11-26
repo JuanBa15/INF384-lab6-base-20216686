@@ -96,6 +96,37 @@
         "chatSessionId": "sess_8dc0daaf-8260-463f-9972-860318b3ecfc",
         "timestamp": 1795731994946
       }
+    ],
+    "5.1 Crear `tests/habilitados.property.test.js` con P1–P4 sobre `calcularHabilitados` (función pura)": [
+      {
+        "executionId": "3572c0c5-c986-4455-8d6c-2960e83a2eca",
+        "chatSessionId": "sess_4a9bb2cc-7c38-426b-9663-60c872169fcf",
+        "timestamp": 1795732017558
+      },
+      {
+        "executionId": "3572c0c5-c986-4455-8d6c-2960e83a2eca",
+        "chatSessionId": "sess_4a9bb2cc-7c38-426b-9663-60c872169fcf",
+        "timestamp": 1795732071759
+      }
+    ],
+    "5.2 Añadir P5–P8 sobre el endpoint HTTP": [
+      {
+        "executionId": "3572c0c5-c986-4455-8d6c-2960e83a2eca",
+        "chatSessionId": "sess_4a9bb2cc-7c38-426b-9663-60c872169fcf",
+        "timestamp": 1795732073646
+      },
+      {
+        "executionId": "3572c0c5-c986-4455-8d6c-2960e83a2eca",
+        "chatSessionId": "sess_4a9bb2cc-7c38-426b-9663-60c872169fcf",
+        "timestamp": 1795732437842
+      }
+    ],
+    "5. Pruebas de propiedad (opcional)": [
+      {
+        "executionId": "3572c0c5-c986-4455-8d6c-2960e83a2eca",
+        "chatSessionId": "sess_4a9bb2cc-7c38-426b-9663-60c872169fcf",
+        "timestamp": 1795732437897
+      }
     ]
   }
 }

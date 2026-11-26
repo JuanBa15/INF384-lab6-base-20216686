@@ -44,15 +44,15 @@ Se añade `POST /habilitados` a la API Express existente, con una función pura 
   - Ejecutar `npm test` y `npm test -- --coverage`; todos los tests deben pasar
   - Ensure all tests pass, ask the user if questions arise.
 
-- [ ] 5. Pruebas de propiedad (opcional)
-  - [ ] 5.1 Crear `tests/habilitados.property.test.js` con P1–P4 sobre `calcularHabilitados` (función pura)
+- [x] 5. Pruebas de propiedad (opcional)
+  - [x] 5.1 Crear `tests/habilitados.property.test.js` con P1–P4 sobre `calcularHabilitados` (función pura)
     - **Property 1: Exclusion of passed courses** — **Validates: Requirements 1.1, 1.4**
     - **Property 2: Complete prerequisites** — **Validates: Requirements 1.1**
     - **Property 3: Completeness (no eligible course is omitted)** — **Validates: Requirements 1.1, 1.2**
     - **Property 4: Stability (idempotence)** — **Validates: Requirements 1.1**
     - Generadores: subconjuntos aleatorios de ids del catálogo; ≥100 iteraciones por propiedad (fast-check con `numRuns: 100`, o `test.each` con ≥10 combinaciones)
     - P1–P3 pueden fusionarse en un único test que verifique las tres condiciones
-  - [ ] 5.2 Añadir P5–P8 sobre el endpoint HTTP
+  - [x] 5.2 Añadir P5–P8 sobre el endpoint HTTP
     - **Property 5: Empty list returns only courses without prerequisites** — **Validates: Requirements 1.5**
     - **Property 6: Input with non-string elements always returns 400** — **Validates: Requirements 2.2**
     - **Property 7: Non-array input always returns 400** — **Validates: Requirements 3.3**
