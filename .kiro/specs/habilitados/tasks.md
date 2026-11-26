@@ -40,7 +40,7 @@ Se añade `POST /habilitados` a la API Express existente, con una función pura 
     - `["1INF30<script>"]` → código ≠ 500, body sin `C:\`, `/home/`, `node_modules`, sin fragmentos del valor enviado
     - _Requirements: 2.1, 2.2, 3.2, 3.3_
 
-- [ ] 4. Checkpoint - Verificar suite completa
+- [x] 4. Checkpoint - Verificar suite completa
   - Ejecutar `npm test` y `npm test -- --coverage`; todos los tests deben pasar
   - Ensure all tests pass, ask the user if questions arise.
 
