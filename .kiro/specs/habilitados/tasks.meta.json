@@ -12,6 +12,71 @@
         "chatSessionId": "sess_16b9bc99-ba19-451c-84e4-638ec9aae205",
         "timestamp": 1795731201536
       }
+    ],
+    "2.1 Crear `src/routes/habilitados.js` con `calcularHabilitados(aprobados, cursos)`": [
+      {
+        "executionId": "c66ce9ce-3540-4dd5-8278-223d26c57dbe",
+        "chatSessionId": "sess_af4196c6-c7f2-4749-b657-d687dfc07cdc",
+        "timestamp": 1795731250591
+      },
+      {
+        "executionId": "c66ce9ce-3540-4dd5-8278-223d26c57dbe",
+        "chatSessionId": "sess_af4196c6-c7f2-4749-b657-d687dfc07cdc",
+        "timestamp": 1795731284024
+      }
+    ],
+    "2.2 Implementar el handler POST con validación de entrada": [
+      {
+        "executionId": "c66ce9ce-3540-4dd5-8278-223d26c57dbe",
+        "chatSessionId": "sess_af4196c6-c7f2-4749-b657-d687dfc07cdc",
+        "timestamp": 1795731286591
+      },
+      {
+        "executionId": "c66ce9ce-3540-4dd5-8278-223d26c57dbe",
+        "chatSessionId": "sess_af4196c6-c7f2-4749-b657-d687dfc07cdc",
+        "timestamp": 1795731327604
+      },
+      {
+        "executionId": "c66ce9ce-3540-4dd5-8278-223d26c57dbe",
+        "chatSessionId": "sess_af4196c6-c7f2-4749-b657-d687dfc07cdc",
+        "timestamp": 1795731457122
+      },
+      {
+        "executionId": "c66ce9ce-3540-4dd5-8278-223d26c57dbe",
+        "chatSessionId": "sess_af4196c6-c7f2-4749-b657-d687dfc07cdc",
+        "timestamp": 1795731503072
+      }
+    ],
+    "2.3 Montar la ruta en `src/app.js`": [
+      {
+        "executionId": "c66ce9ce-3540-4dd5-8278-223d26c57dbe",
+        "chatSessionId": "sess_af4196c6-c7f2-4749-b657-d687dfc07cdc",
+        "timestamp": 1795731288353
+      },
+      {
+        "executionId": "c66ce9ce-3540-4dd5-8278-223d26c57dbe",
+        "chatSessionId": "sess_af4196c6-c7f2-4749-b657-d687dfc07cdc",
+        "timestamp": 1795731327660
+      }
+    ],
+    "2.4 Pruebas de estrés de rendimiento": [
+      {
+        "executionId": "c66ce9ce-3540-4dd5-8278-223d26c57dbe",
+        "chatSessionId": "sess_af4196c6-c7f2-4749-b657-d687dfc07cdc",
+        "timestamp": 1795731329460
+      },
+      {
+        "executionId": "c66ce9ce-3540-4dd5-8278-223d26c57dbe",
+        "chatSessionId": "sess_af4196c6-c7f2-4749-b657-d687dfc07cdc",
+        "timestamp": 1795731406728
+      }
+    ],
+    "2. Crear la ruta POST /habilitados con función pura": [
+      {
+        "executionId": "c66ce9ce-3540-4dd5-8278-223d26c57dbe",
+        "chatSessionId": "sess_af4196c6-c7f2-4749-b657-d687dfc07cdc",
+        "timestamp": 1795731406775
+      }
     ]
   }
 }

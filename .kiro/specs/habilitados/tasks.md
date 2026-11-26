@@ -12,20 +12,20 @@ Se añade `POST /habilitados` a la API Express existente, con una función pura 
   - Verificar con `npm audit --audit-level=high` que no quedan hallazgos high/critical
   - _Requirements: 4.1_
 
-- [ ] 2. Crear la ruta POST /habilitados con función pura
-  - [ ] 2.1 Crear `src/routes/habilitados.js` con `calcularHabilitados(aprobados, cursos)`
+- [x] 2. Crear la ruta POST /habilitados con función pura
+  - [x] 2.1 Crear `src/routes/habilitados.js` con `calcularHabilitados(aprobados, cursos)`
     - Función pura: construye `Set` de aprobados, filtra catálogo con `!set.has(id) && prerequisites.every(p => set.has(p))`
     - Exportar `calcularHabilitados` además del router para permitir tests unitarios directos
     - _Requirements: 1.1, 1.2, 1.4, 1.5_
-  - [ ] 2.2 Implementar el handler POST con validación de entrada
+  - [x] 2.2 Implementar el handler POST con validación de entrada
     - Validación secuencial: campo ausente → `aprobados` no es array → elemento no-string → string que no cumpla `/^[0-9][A-Z]{3}[0-9]{2}$/`
     - Cada fallo responde 400 con `{ "error": "<mensaje>" }`; el mensaje de formato inválido es el literal fijo `"Formato de código inválido"` sin reflejar el valor
     - Invoca `calcularHabilitados` con `repositorio.listar()` y responde 200 con el array plano de cursos (mismo shape que `GET /cursos`)
     - _Requirements: 1.1, 2.1, 2.2, 3.2, 3.3_
-  - [ ] 2.3 Montar la ruta en `src/app.js`
+  - [x] 2.3 Montar la ruta en `src/app.js`
     - Añadir `app.use('/habilitados', require('./routes/habilitados'));` antes del middleware de error, igual que `/cursos`
     - _Requirements: 1.1_
-  - [ ] 2.4 Pruebas de estrés de rendimiento
+  - [x] 2.4 Pruebas de estrés de rendimiento
     - Test con 5,000 códigos válidos (mezcla de ids reales y desconocidos bien formados): 200 y respuesta dentro del timeout de Jest (5 s)
     - _Requirements: 3.1_
 
