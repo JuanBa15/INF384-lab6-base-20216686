@@ -77,6 +77,13 @@
         "chatSessionId": "sess_af4196c6-c7f2-4749-b657-d687dfc07cdc",
         "timestamp": 1795731406775
       }
+    ],
+    "3. Pruebas de integración del endpoint": [
+      {
+        "executionId": "7abad6ad-2647-4260-b3a1-d7cbe2128bdb",
+        "chatSessionId": "sess_59505278-4166-4306-9a98-082aa0419f7f",
+        "timestamp": 1795731544898
+      }
     ]
   }
 }

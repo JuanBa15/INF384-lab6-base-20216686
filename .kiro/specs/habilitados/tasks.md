@@ -29,13 +29,13 @@ Se añade `POST /habilitados` a la API Express existente, con una función pura 
     - Test con 5,000 códigos válidos (mezcla de ids reales y desconocidos bien formados): 200 y respuesta dentro del timeout de Jest (5 s)
     - _Requirements: 3.1_
 
-- [ ] 3. Pruebas de integración del endpoint
-  - [ ] 3.1 Crear `tests/habilitados.test.js` con los casos de cálculo
+- [x] 3. Pruebas de integración del endpoint
+  - [x] 3.1 Crear `tests/habilitados.test.js` con los casos de cálculo
     - Ejemplo canónico `["1INF25","1INF27","1INF49"]` → 200, 27 cursos, incluye `1INF29`..`1INF32`
     - `[]` → 200, solo cursos sin prerrequisitos
     - Cursos aprobados no aparecen aunque cumplan prereqs
     - _Requirements: 1.1, 1.2, 1.3, 1.4, 1.5_
-  - [ ] 3.2 Añadir casos de validación y seguridad
+  - [x] 3.2 Añadir casos de validación y seguridad
     - Sin campo `aprobados` → 400; `{"aprobados":"1INF25"}` → 400; `[42]`/`[null]` → 400
     - `["1INF30<script>"]` → código ≠ 500, body sin `C:\`, `/home/`, `node_modules`, sin fragmentos del valor enviado
     - _Requirements: 2.1, 2.2, 3.2, 3.3_
