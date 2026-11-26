@@ -127,6 +127,18 @@
         "chatSessionId": "sess_4a9bb2cc-7c38-426b-9663-60c872169fcf",
         "timestamp": 1795732437897
       }
+    ],
+    "6. Configurar umbral de cobertura en jest.config.js": [
+      {
+        "executionId": "f4c8161a-e999-4742-a3b3-b4df203dd77a",
+        "chatSessionId": "sess_27a18161-aec4-49dd-aad2-17b5f3b38c5f",
+        "timestamp": 1795732454857
+      },
+      {
+        "executionId": "cd0c3e23-dca0-4fc3-bd4b-571793c11e49",
+        "chatSessionId": "sess_27a18161-aec4-49dd-aad2-17b5f3b38c5f",
+        "timestamp": 1795732577953
+      }
     ]
   }
 }

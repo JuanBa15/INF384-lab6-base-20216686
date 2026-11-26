@@ -60,7 +60,7 @@ Se añade `POST /habilitados` a la API Express existente, con una función pura 
     - Si se usa fast-check, añadirlo como devDependency (`npm install --save-dev fast-check`)
     - _Requirements: 1.5, 2.2, 3.2, 3.3_
 
-- [ ] 6. Configurar umbral de cobertura en jest.config.js
+- [x] 6. Configurar umbral de cobertura en jest.config.js
   - Añadir `coverageThreshold: { global: { lines: 80 } }`; el scope ya está definido por `collectCoverageFrom` (`src/**/*.js`, excluye `src/server.js`)
   - Ejecutar `npm test -- --coverage` y verificar que el umbral se cumple
   - _Requirements: 4.3_
