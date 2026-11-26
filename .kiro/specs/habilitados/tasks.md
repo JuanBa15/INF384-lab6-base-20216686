@@ -6,7 +6,7 @@ Se añade `POST /habilitados` a la API Express existente, con una función pura 
 
 ## Tasks
 
-- [ ] 1. Actualizar lodash a ^4.17.21
+- [x] 1. Actualizar lodash a ^4.17.21
   - Cambiar `"lodash": "4.17.20"` por `"lodash": "^4.17.21"` en `package.json`
   - Ejecutar `npm install` para actualizar `package-lock.json`
   - Verificar con `npm audit --audit-level=high` que no quedan hallazgos high/critical
