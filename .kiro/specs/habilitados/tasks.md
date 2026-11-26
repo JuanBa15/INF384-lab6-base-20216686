@@ -65,14 +65,14 @@ Se añade `POST /habilitados` a la API Express existente, con una función pura 
   - Ejecutar `npm test -- --coverage` y verificar que el umbral se cumple
   - _Requirements: 4.3_
 
-- [ ] 7. Actualizar CI con los tres gates
-  - [ ] 7.1 Modificar `.github/workflows/ci.yml`
+- [x] 7. Actualizar CI con los tres gates
+  - [x] 7.1 Modificar `.github/workflows/ci.yml`
     - `fetch-depth: 0` en `actions/checkout@v4`
     - Step gitleaks (`gitleaks/gitleaks-action@v3`): falla si hay secretos en el historial
     - Step `npm audit --audit-level=high` tras `npm ci`: falla si hay high/critical
     - Cambiar `npm test` por `npm test -- --coverage` para activar el umbral de cobertura
     - _Requirements: 4.1, 4.2, 4.3, 4.4_
-  - [ ] 7.2 Verificación local de los gates
+  - [x] 7.2 Verificación local de los gates
     - Comprobar que `npm audit --audit-level=high` sale 0 y que `npm test -- --coverage` pasa el umbral de 80 % en local antes de confiar en CI
     - _Requirements: 4.1, 4.3_
 
